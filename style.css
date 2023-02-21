@@ -178,7 +178,7 @@ h1{
 }
 
 .course-col:hover{
-    background-color: antiquewhite;
+    background-color: #fff3f3;
 }
 
 .course_btn{
@@ -318,17 +318,40 @@ p{
    }
  /*testinonialk end*/
 
- .footer{
-    width: 100%;
+ /* footer start */
+
+.footer{
+    background-color: #f79b9b4a;
     text-align: center;
-    padding: 30px 0;
- }
+    padding: 30px;
+    display: flex;
+    margin:  auto;
+    flex-direction: column;
+}
 
- .footer h4{
-    margin-bottom: 25px;
-    margin-top: 20px;
-    font-weight: 600;
+.icons{
+    font-size: 25px;  
+    
+}
+
+.icons i{
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+
+.icons i:hover{
+    color: #f38080;
+}
+
+.footer_h4{
     font-size: 20px;
- }
-
+    margin-top: 13px;
+}
  
+.footer_h5{
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+ /* footer end */
